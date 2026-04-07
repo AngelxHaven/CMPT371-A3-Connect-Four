@@ -22,11 +22,12 @@ This project is a multiplayer connect four game made with python. It uses Python
 
 * The size of the game board is fixed to be the default size of 7x6
 * The client cannot choose who they want to play against, they are paired with the next client that connects to the server.
+* With each unique game being in a thread, issues may come up in there are too many games going on at the same time.
+* There is no way to reconnect and continue the game you were previously playing if you disconnect.
 
 ### **Known Issues**
 
 * It is possible for the client who is waiting for the turn to enter their move before the other player has made their move. The server will not reject the move, unless it is invalid, but it is not processed until the server receives the move from the other player. This may cause confusion for the player waiting as it may look like their turn has been skipped. 
-
 
 ## **3\. Video Demo**
 
