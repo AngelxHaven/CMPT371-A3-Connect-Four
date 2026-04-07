@@ -30,7 +30,7 @@ This project is a multiplayer connect four game made with python. It uses Python
 
 ## **3\. Video Demo**
 
-The demo which covers establishing a connection, simple gameplay, and client disconnects can be found [Here](LINK HERE)
+The demo which covers establishing a connection, simple gameplay, and client disconnects can be found [Here](https://www.youtube.com/watch?v=m9uqS08Ezl0)
 
 ## **4\. Prerequisites (Fresh Environment)**
 
